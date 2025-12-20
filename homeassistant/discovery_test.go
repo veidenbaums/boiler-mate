@@ -108,6 +108,7 @@ func TestPublishNumbersCreatesCorrectTopics(t *testing.T) {
 		"diff_under",
 		"diff_over",
 		"hopper_content",
+		"dhw_diff_under",
 	}
 
 	numbers := make(map[string]bool)
