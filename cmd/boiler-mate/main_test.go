@@ -220,6 +220,7 @@ func TestParseSetTopicIntegration(t *testing.T) {
 	topics := map[string]string{
 		"nbe/BOILER123/set/boiler/temp":         "boiler.temp",
 		"nbe/BOILER123/set/boiler/diff_under":   "boiler.diff_under",
+		"nbe/BOILER123/set/hot_water/diff_under": "hot_water.diff_under",
 		"nbe/BOILER123/set/device/power_switch": "device.power_switch",
 		"nbe/BOILER123/set/regulation/mode":     "regulation.mode",
 		"custom/prefix/set/hopper/fill_level":   "hopper.fill_level",

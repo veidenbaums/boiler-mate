@@ -332,6 +332,11 @@ func (mb *MockBoiler) initializeData() {
 		"diff_over":  RoundedFloat(15.0),
 	}
 
+	// Initialize hot water settings
+	mb.data["hot_water"] = map[string]interface{}{
+		"diff_under": RoundedFloat(5.0),
+	}
+
 	// Initialize regulation settings
 	mb.data["regulation"] = map[string]interface{}{
 		"boiler_power_min": int64(30),

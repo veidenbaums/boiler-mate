@@ -188,7 +188,7 @@ func AllEntities() []EntityConfig {
 			DeviceClass:    "temperature",
 			Unit:           "°C",
 			Mode:           "box",
-			Icon:           "mdi:arrow-collapse-up",
+			Icon:           "mdi:arrow-collapse-down",
 			MinValue:       5,
 			MaxValue:       30,
 			Precision:      1,
