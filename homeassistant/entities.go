@@ -54,7 +54,7 @@ func AllEntities() []EntityConfig {
 			Unit:           "°C",
 			Icon:           "mdi:water-thermometer",
 			Precision:      2,
-			StateTopic:     "operating_data/hot_water_temp",
+			StateTopic:     "operating_data/dhw_temp",
 		},
 		{
 			Key:            "oxygen",
