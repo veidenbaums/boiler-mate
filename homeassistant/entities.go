@@ -57,16 +57,6 @@ func AllEntities() []EntityConfig {
 			StateTopic:     "operating_data/dhw_temp",
 		},
 		{
-			Key:            "oxygen_ref",
-			Name:           "Oxygen Reference",
-			EntityType:     Sensor,
-			EntityCategory: "diagnostic",
-			Unit:           "%",
-			Icon:           "mdi:air-filter",
-			Precision:      2,
-			StateTopic:     "operating_data/oxygen_ref",
-		},
-		{
 			Key:            "oxygen",
 			Name:           "Oxygen",
 			EntityType:     Sensor,
