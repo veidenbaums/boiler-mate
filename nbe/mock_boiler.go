@@ -355,14 +355,15 @@ func (mb *MockBoiler) initializeData() {
 
 	// Initialize operating data
 	mb.data["operating"] = map[string]interface{}{
-		"boiler_temp": RoundedFloat(62.5),
-		"smoke_temp":  RoundedFloat(125.3),
-		"oxygen":      RoundedFloat(12.5),
-		"power_kw":    RoundedFloat(15.2),
-		"power_pct":   RoundedFloat(75.0),
-		"photo_level": RoundedFloat(88.0),
-		"state":       int64(5), // Power state
-		"state_text":  PowerStates[5],
+		"boiler_temp":     RoundedFloat(62.5),
+		"hot_water_temp":  RoundedFloat(48.5),
+		"smoke_temp":      RoundedFloat(125.3),
+		"oxygen":          RoundedFloat(12.5),
+		"power_kw":        RoundedFloat(15.2),
+		"power_pct":       RoundedFloat(75.0),
+		"photo_level":     RoundedFloat(88.0),
+		"state":           int64(5), // Power state
+		"state_text":      PowerStates[5],
 	}
 
 	// Initialize advanced data

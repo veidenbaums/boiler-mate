@@ -57,8 +57,10 @@ func TestIntegrationFullStack(t *testing.T) {
 	mockBoiler.SetValue("boiler", "temp", nbe.RoundedFloat(70.0))
 	mockBoiler.SetValue("boiler", "diff_under", nbe.RoundedFloat(5.0))
 	mockBoiler.SetValue("boiler", "diff_over", nbe.RoundedFloat(15.0))
+	mockBoiler.SetValue("hot_water", "temp", nbe.RoundedFloat(50.0))
 	mockBoiler.SetValue("hot_water", "diff_under", nbe.RoundedFloat(5.0))
 	mockBoiler.SetValue("operating", "boiler_temp", nbe.RoundedFloat(65.5))
+	mockBoiler.SetValue("operating", "hot_water_temp", nbe.RoundedFloat(48.5))
 	mockBoiler.SetValue("operating", "state", int64(5))
 	mockBoiler.SetValue("operating", "oxygen", nbe.RoundedFloat(12.5))
 

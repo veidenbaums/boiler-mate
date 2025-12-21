@@ -103,6 +103,7 @@ func TestPublishSensorsCreatesCorrectTopics(t *testing.T) {
 func TestPublishNumbersCreatesCorrectTopics(t *testing.T) {
 	expectedNumbers := []string{
 		"boiler_setpoint",
+		"dhw_setpoint",
 		"boiler_power_min",
 		"boiler_power_max",
 		"diff_under",
