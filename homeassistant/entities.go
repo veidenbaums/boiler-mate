@@ -46,7 +46,7 @@ func AllEntities() []EntityConfig {
 			StateTopic:     "operating_data/boiler_temp",
 		},
 		{
-			Key:            "dhw_temp",
+			Key:            "dhw_temp_sensor",
 			Name:           "DHW Temperature",
 			EntityType:     Sensor,
 			EntityCategory: "diagnostic",

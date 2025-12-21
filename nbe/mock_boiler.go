@@ -356,7 +356,7 @@ func (mb *MockBoiler) initializeData() {
 	// Initialize operating data
 	mb.data["operating"] = map[string]interface{}{
 		"boiler_temp":     RoundedFloat(62.5),
-		"dhw_temp":        RoundedFloat(48.5),
+		"dhw_temp_sensor":        RoundedFloat(48.5),
 		"smoke_temp":      RoundedFloat(125.3),
 		"oxygen":          RoundedFloat(12.5),
 		"power_kw":        RoundedFloat(15.2),
