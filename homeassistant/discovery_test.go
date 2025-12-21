@@ -107,6 +107,7 @@ func TestPublishNumbersCreatesCorrectTopics(t *testing.T) {
 		"boiler_power_max",
 		"diff_under",
 		"diff_over",
+		"dhw_diff_under",
 		"hopper_content",
 	}
 
