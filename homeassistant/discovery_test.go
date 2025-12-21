@@ -72,6 +72,7 @@ func TestPublishSensorsCreatesCorrectTopics(t *testing.T) {
 		"ip_address",
 		"serial",
 		"boiler_temp",
+		"dhw_temp",
 		"oxygen",
 		"status",
 		"smoke_temp",
