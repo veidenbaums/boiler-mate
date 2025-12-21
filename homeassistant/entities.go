@@ -103,6 +103,17 @@ func AllEntities() []EntityConfig {
 			Precision:      2,
 			StateTopic:     "operating_data/power_pct",
 		},
+		{
+			Key:            "dhw_diff_under_sensor",
+			Name:           "DHW Difference Under",
+			EntityType:     Sensor,
+			EntityCategory: "diagnostic",
+			DeviceClass:    "temperature",
+			Unit:           "°C",
+			Icon:           "mdi:water-thermometer",
+			Precision:      1,
+			StateTopic:     "hot_water/diff_under",
+		},
 
 		// Numbers (controls)
 		{
