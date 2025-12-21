@@ -52,7 +52,8 @@ func AllEntities() []EntityConfig {
 			EntityCategory: "diagnostic",
 			DeviceClass:    "temperature",
 			Unit:           "°C",
-			Precision:      2,
+			Icon:           "mdi:water-thermometer",
+			Precision:      1,
 			StateTopic:     "operating_data/dhw_temp",
 		},
 		{
