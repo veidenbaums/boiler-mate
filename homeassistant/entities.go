@@ -125,6 +125,16 @@ func AllEntities() []EntityConfig {
 			Precision:      1,
 			StateTopic:     "hot_water/diff_under",
 		},
+		{
+	        Key:            "external_temp",
+	        Name:           "External Temperature",
+	        EntityType:     Sensor,
+	        DeviceClass:    "temperature",
+	        Unit:           "°C",
+	        Precision:      1,
+	        Icon:           "mdi:weather-cloudy",
+	        StateTopic:     "operating_data/external_temp",
+	    }
 
 		// Numbers (controls)
 		{
