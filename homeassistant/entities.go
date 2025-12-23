@@ -134,7 +134,7 @@ func AllEntities() []EntityConfig {
 	        Precision:      1,
 	        Icon:           "mdi:weather-cloudy",
 	        StateTopic:     "operating_data/external_temp",
-	    }
+	    },
 
 		// Numbers (controls)
 		{
